@@ -3,6 +3,9 @@
     max-height: 10%;
     border: 1px solid #505050;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .peraltinha {
@@ -10,6 +13,9 @@
     max-height: 10%;
     border-radius: 5px;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .peralta_bottom {
@@ -30,11 +36,16 @@ body {
 }
 
 .post_title {
+    text-align: center;
     font-size: 30px;
     font-style: italic;
 }
 
-.foot {
+.subtitle, .peralta_bottom{
+    text-align: center;
+}
+
+.foot{
     background-color: #bbb;
 }
 
