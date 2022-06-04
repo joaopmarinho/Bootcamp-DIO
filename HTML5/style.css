@@ -1,7 +1,8 @@
 .joao {
     max-width: 10%;
     max-height: 10%;
-    border-radius: 5px;
+    border: 1px solid #505050;
+    border-radius: 50%;
 }
 .peraltinha{
     max-width: 15%;
@@ -14,10 +15,10 @@
     padding-top: 15px;
 }
 body{
-    background-color: #ccc;
+    background-color: #DCDCDC;
 }
 #title, .post_title, .subtitle {
-    color: blue;
+    color: #505050;
     border-bottom: 1px solid #505050; 
     border-width: 1.5px;
 }
